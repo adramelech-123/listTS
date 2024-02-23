@@ -16,7 +16,7 @@ export default class ListTemplate implements DOMList {
     }
 
     clear() : void {
-        this.ul.innerHTML = "";
+        this.ul.innerHTML = ""
     }
 
     render(fullList: FullList): void { 
